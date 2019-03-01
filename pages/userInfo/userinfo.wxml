@@ -1,0 +1,23 @@
+<!--userinfo.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="section__ctn">
+      <image style="width:100px; height:100px;" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19022220" mode="aspectFit"></image>
+    </view>
+    <text>用户昵称</text>
+  </view>
+  <view class="page__bd">
+    <view class="item">
+      <text class="item-child">预约记录</text>
+    </view>
+    <view class="item">
+      <text class="item-child">钱包</text>
+    </view>
+    <view class="item">
+      <text class="item-child">消费记录</text>
+    </view>
+    <view class="item">
+      <text class="item-child">设置</text>
+    </view>
+  </view>
+</view>

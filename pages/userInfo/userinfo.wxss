@@ -1,0 +1,9 @@
+
+.item {
+  margin-top: 40rpx;
+  border-bottom: 1px solid #666;
+}
+
+.item-child {
+  margin-left: 20rpx;
+}

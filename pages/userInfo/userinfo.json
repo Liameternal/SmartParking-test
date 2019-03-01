@@ -1,0 +1,20 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText":"个人中心",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "附近",
+        "iconPath": "images/tabs/icon_speed.png",
+        "selectedIconPath": "images/tabs/icon_speed_HL.png"
+      },
+      {
+        "pagePath": "pages/userLogin/userLogin",
+        "text": "个人中心",
+        "iconPath": "images/tabs/icon_account.png",
+        "selectedIconPath": "images/tabs/icon_account_HL.png"
+      }
+    ]
+  }
+}

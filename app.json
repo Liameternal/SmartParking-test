@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/userLogin/user",
+    "pages/index/index",
+    "pages/userInfo/userinfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "附近",
+        "iconPath": "images/tabs/icon_speed.png",
+        "selectedIconPath": "images/tabs/icon_speed_HL.png"
+      },
+      {
+        "pagePath": "pages/userInfo/userinfo",
+        "text": "个人中心",
+        "iconPath": "images/tabs/icon_account.png",
+        "selectedIconPath": "images/tabs/icon_account_HL.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

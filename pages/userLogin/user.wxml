@@ -1,0 +1,33 @@
+<!--user.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="section__ctn">
+      <image style="width:100px; height:100px;" src="https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19022220" mode="aspectFit"></image>
+    </view>
+  </view>
+  <view class="page__bd">
+    <view class="section">
+      <input type="text" bindinput="bindEmail" placeholder="邮箱" auto-focus />
+    </view>
+    <view class="section">
+      <input type="password" bindinput="bindPassword" placeholder="密码" />
+    </view>
+    <view class="section">
+      <view class="btn-area">
+        <button type="primary" bindtap="login">登录</button>
+      </view>
+    </view>
+
+    <view class="section">
+      <view class="btn-area">
+        <button type="default" bindtap="gotoregister">新用户注册</button>
+      </view>
+    </view>
+    <view class="section">
+      <view class="btn-area">
+        <button type="default" bindtap="forgotpassword">忘记密码</button>
+      </view>
+    </view>
+
+  </view>
+</view>
